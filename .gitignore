@@ -1,0 +1,7 @@
+*.o
+*.so
+main-upper
+main-lower
+main-wide
+main-generic
+*.geany
