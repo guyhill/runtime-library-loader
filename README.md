@@ -4,4 +4,4 @@ The current code is just a simple example - in this case, of printing the same m
 and replacing the example functions in `lib/functions.h` with your own. You can then `#include` the header file `lib/print-generic.h` in your own program and link to `lib\libprint-generic.so` you're good to go. 
 If you want to build your project with a fixed implementation, you can `#include "lib/print.h` and link to any of the specific implementations - as the API is supposed to be the same for all of them, the same include file applies for all.
 
-Of course, you can also replace `print` with something more fitting.
+Of course, you can also replace `print` with a more fitting name.
